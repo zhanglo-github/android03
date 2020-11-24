@@ -14,6 +14,7 @@ public class SliderMenuActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_slider_menu);
         System.out.println("xx");
+        System.out.println("zzzz");
         SlidingMenu menu=new SlidingMenu(this);
         menu.setMode(SlidingMenu.LEFT);
         menu.setTouchModeAbove(SlidingMenu.TOUCHMODE_FULLSCREEN);
